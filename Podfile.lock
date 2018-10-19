@@ -1,0 +1,82 @@
+PODS:
+  - Alamofire (4.7.3)
+  - Mapbox-iOS-SDK (4.5.0)
+  - MapboxCoreNavigation (0.22.3):
+    - MapboxDirections.swift (~> 0.24.0)
+    - MapboxMobileEvents (~> 0.6.0)
+    - MapboxNavigationNative (~> 3.1)
+    - Turf (~> 0.2.0)
+  - MapboxDirections.swift (0.24.0):
+    - Polyline (~> 4.2)
+  - MapboxGeocoder.swift (0.10.0)
+  - MapboxMobileEvents (0.6.0)
+  - MapboxNavigation (0.22.3):
+    - Mapbox-iOS-SDK (~> 4.3)
+    - MapboxCoreNavigation (= 0.22.3)
+    - MapboxSpeech (~> 0.0.1)
+    - Solar (~> 2.1)
+  - MapboxNavigationNative (3.1.5)
+  - MapboxSpeech (0.0.2)
+  - Polyline (4.2.0)
+  - PromiseKit (6.5.2):
+    - PromiseKit/CorePromise (= 6.5.2)
+    - PromiseKit/Foundation (= 6.5.2)
+    - PromiseKit/UIKit (= 6.5.2)
+  - PromiseKit/Alamofire (6.5.2):
+    - Alamofire (~> 4.0)
+    - PromiseKit/CorePromise
+  - PromiseKit/CorePromise (6.5.2)
+  - PromiseKit/Foundation (6.5.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.5.2):
+    - PromiseKit/CorePromise
+  - Solar (2.1.0)
+  - SwiftyJSON (4.2.0)
+  - Turf (0.2.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - Mapbox-iOS-SDK (~> 4.5)
+  - MapboxCoreNavigation (~> 0.22.0)
+  - MapboxGeocoder.swift (~> 0.9)
+  - MapboxNavigation (~> 0.22.0)
+  - PromiseKit (~> 6.0)
+  - PromiseKit/Alamofire (~> 6.0)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Mapbox-iOS-SDK
+    - MapboxCoreNavigation
+    - MapboxDirections.swift
+    - MapboxGeocoder.swift
+    - MapboxMobileEvents
+    - MapboxNavigation
+    - MapboxNavigationNative
+    - MapboxSpeech
+    - Polyline
+    - PromiseKit
+    - Solar
+    - SwiftyJSON
+    - Turf
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Mapbox-iOS-SDK: fb9dde66106a8f10d351f9697ac198049c8e5511
+  MapboxCoreNavigation: 37bc80cf060d5c35f1fda7f0a53fb79fb188d930
+  MapboxDirections.swift: 8f1dd1aedc13aeb226b9038eb73f08dcccbac0cd
+  MapboxGeocoder.swift: fc21bff95696aa618c396bd472ef0924ba9ccd2e
+  MapboxMobileEvents: 0218869f556a7fdac9f869e2f9c10e8c6dd7eed5
+  MapboxNavigation: 92db4c3d3ab691c320d0bc65ecf80dc864ef9a1e
+  MapboxNavigationNative: 3807c7870b02e8073c8e3276626d2b36d1eec093
+  MapboxSpeech: 9d46bca4d7e96318ec8d6ce93a1153ebaef319ba
+  Polyline: 3d69f75bb136357e27291d439d0436c6ebda57a4
+  PromiseKit: 27c1601bfb73405871b805bcb8cf7e55c4dad3db
+  Solar: 2dc6e7cc39186cb0c8228fa08df76fb50c7d8f24
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  Turf: 9763a5a2d7da05dfdd5ed56aeb0414b291b0fee1
+
+PODFILE CHECKSUM: 7c9aecb6475c744becfbaeefb7aab1b0df490e3c
+
+COCOAPODS: 1.6.0.beta.2
